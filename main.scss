@@ -1,0 +1,35 @@
+$primary:  #5265E1;
+$secondary:#FA5959;
+$enable-shadows: true;
+
+$prefix: "mo-";
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.login-fondo{
+    background-color: $secondary;
+    color: white;
+    border-radius: 8px;
+    padding-inline: 2.5rem !important;
+}
+
+.nav-link {
+    margin-right: 2.25rem; // Añade separación entre todos los enlaces
+  }
+
+  .negrita{
+    font-weight: bolder;
+  }
+
+  .btn-getIt{
+    background-color:aquamarine;
+    margin-left: 1rem;
+  }
+
+  .letra-parrafo{
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  
