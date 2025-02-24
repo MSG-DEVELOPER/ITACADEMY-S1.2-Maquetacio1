@@ -11882,7 +11882,7 @@ textarea.form-control-lg {
   background-color: #FA5959;
   color: white;
   border-radius: 8px;
-  padding-inline: 2.5rem !important;
+  padding-inline: 3.5rem !important;
 }
 
 .nav-link {
@@ -11901,6 +11901,35 @@ textarea.form-control-lg {
 .letra-parrafo {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+.make-fixed {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100vw;
+}
+
+.mt-10 {
+  margin-top: 8rem;
+}
+
+@media (max-width: 576px) {
+  .text-main h1, .text-main .h1 {
+    text-align: center;
+  }
+  .text-main p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .container-butons {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .container-butons button {
+    padding: 0.8rem;
+    font-weight: bold;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
