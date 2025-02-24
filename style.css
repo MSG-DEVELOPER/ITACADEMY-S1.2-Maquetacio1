@@ -11878,6 +11878,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.nav-link {
+  color: grey;
+}
+
+p {
+  color: grey;
+}
+
 .login-fondo {
   background-color: #FA5959;
   color: white;
@@ -11900,6 +11908,7 @@ textarea.form-control-lg {
 
 .letra-parrafo {
   font-weight: bold;
+  color: black;
   font-size: 1.5rem;
 }
 
@@ -11930,6 +11939,12 @@ textarea.form-control-lg {
     padding: 0.8rem;
     font-weight: bold;
   }
+  .container-feature {
+    margin-top: 3rem;
+  }
+}
+.tab-content {
+  width: 70%; /* Hace que ocupe todo el ancho disponible */
 }
 
 /*# sourceMappingURL=style.css.map */

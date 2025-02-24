@@ -11,7 +11,12 @@ $prefix: "mo-";
 
 
 
-
+.nav-link {
+  color: grey;
+}
+p{
+  color: grey;
+}
 
 .login-fondo{
     background-color: $secondary;
@@ -35,6 +40,7 @@ $prefix: "mo-";
 
   .letra-parrafo{
     font-weight: bold;
+    color: black;
     font-size: 1.5rem;
   }
 
@@ -76,6 +82,15 @@ $prefix: "mo-";
       }
       
     }
+
+    .container-feature{
+      margin-top: 3rem;
+    }
   }
+
   
+  
+  .tab-content {
+    width: 70%; /* Hace que ocupe todo el ancho disponible */
+  }
   
