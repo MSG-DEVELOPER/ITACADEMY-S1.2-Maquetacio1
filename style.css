@@ -11923,6 +11923,20 @@ p {
   margin-top: 8rem;
 }
 
+.marc {
+  border: 3px solid red;
+}
+
+.tab-content {
+  width: 85% !important;
+}
+
+.fit {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 @media (max-width: 576px) {
   .text-main h1, .text-main .h1 {
     text-align: center;

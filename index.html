@@ -11,6 +11,7 @@
     <div class="container">
       <div class="row make-fixed">
         <div class="col-12">
+          
           <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <a href="#" class="navbar-brand">
@@ -67,7 +68,9 @@
       </div>
 
       <div class="row mt-5">
-        <div class="col-12 col-sm-5 d-flex flex-column align-items-center mx-auto container-feature">
+        <div
+          class="col-12 col-sm-5 d-flex flex-column align-items-center mx-auto container-feature"
+        >
           <p class="letra-parrafo">Features</p>
           <p class="text-center">
             Our aim is to make it quick and easy for you to acces your favourite
@@ -77,40 +80,158 @@
         </div>
       </div>
 
-      <div class="row mt-5">
+      <div class="row mt-5 d-none d-sm-block">
         <div class="col-12 d-flex flex-column align-items-center">
           <ul class="nav nav-underline">
             <li class="nav-item">
-              <a href="#bookmarking" class="nav-link active" data-bs-toggle="tab" aria-current="page"
+              <a
+                href="#bookmarking"
+                class="nav-link active"
+                data-bs-toggle="tab"
+                aria-current="page"
                 >Simple Bookmarking</a
               >
             </li>
             <li class="nav-item">
-              <a href="#searching" class="nav-link" data-bs-toggle="tab">Speedy Searching</a>
+              <a href="#searching" class="nav-link" data-bs-toggle="tab"
+                >Speedy Searching</a
+              >
             </li>
             <li class="nav-item">
-              <a href="#sharing" class="nav-link" data-bs-toggle="tab">Easy Sharing</a>
+              <a href="#sharing" class="nav-link" data-bs-toggle="tab"
+                >Easy Sharing</a
+              >
             </li>
           </ul>
 
-          <div class="tab-content">
+          <div class="tab-content marc">
             <div id="bookmarking" class="tab-pane fade show active">
               <div class="row mt-5">
-                <div class="col-6">  <img
-                  class="img-fluid"
-                  src="./Imagenes/illustration-hero.svg"
-                  alt="dibujo de una tablet"
-                /> </div>
-                <div class="col-6 d-flex flex-column"><p class="letra-parrafo">Bookmark in one click</p><p>Organize your bookmarks however you like.Our simple drag-and-drop interface gives you complete control hover how you manage your favourite sites</p> 
-                 <div class="d-flex"> <button class="btn btn-primary ">More Info</button></div>
+                <div class="col-6">
+                  <img
+                    class="img-fluid"
+                    src="./Imagenes/illustration-features-tab-1.svg"
+                    alt="dibujo de una tablet"
+                  />
+                </div>
+                <div class="col-1"></div>
+                <div class="col-5 d-flex flex-column">
+                  <p class="letra-parrafo">Bookmark in one click</p>
+                  <p>
+                    Organize your bookmarks however you like.Our simple
+                    drag-and-drop interface gives you complete control hover how
+                    you manage your favourite sites
+                  </p>
+                  <div class="d-flex">
+                    <button class="btn btn-primary">More Info</button>
+                  </div>
+                </div>
               </div>
+              <div id="searching" class="tab-pane fade"><p>hiola2</p></div>
+              <div id="sharing" class="tab-pane fade">hola3</div>
             </div>
-            <div id="searching" class="tab-pane fade "><p>hiola2</p></div>
-            <div id="sharing" class="tab-pane fade ">hola3</div>
-
           </div>
         </div>
       </div>
+      <!-- Aquí va el acordeón -->
+      <div class="row mt-5 d-block d-sm-none">
+        <div class="col-12">
+          <div
+            class="accordion accordion-flush d-block d-sm-none mt-5"
+            id="acordeon"
+          >
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#AcBookmarking"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Simple Bookmarking
+                </button>
+              </h2>
+              <div
+                id="AcBookmarking"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOne"
+                data-bs-parent="#acordeon"
+              >
+                <div class="accordion-body">
+                  <img
+                    src="./Imagenes/illustration-features-tab-1.svg"
+                    class="fit"
+                    alt="imagen de unaq tablet en vista movil"
+                  />
+
+                  <div class="col-12 d-flex flex-column mt-5 text-center">
+                    <p class="letra-parrafo">Bookmark in one click</p>
+                    <p>
+                      Organize your bookmarks however you like.Our simple
+                      drag-and-drop interface gives you complete control hover
+                      how you manage your favourite sites
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#AcSearching"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Speedy Searching
+                </button>
+              </h2>
+              <div
+                id="AcSearching"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOne"
+                data-bs-parent="#acordeon"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quaerat animi libero sint quidem commodi a?
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#AcSharing"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Easy Sharing
+                </button>
+              </h2>
+              <div
+                id="AcSharing"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOne"
+                data-bs-parent="#acordeon"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quaerat animi libero sint quidem commodi a?
+                </div>
+              </div>
+            </div>
+            <!-- aqui vendria el otro item -->
+          </div>
+        </div>
+      </div>
+      <!-- cierre del acordeon -->
     </div>
     <!-- cierre del container -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
