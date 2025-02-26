@@ -4514,7 +4514,7 @@ textarea.form-control-lg {
   --mo-accordion-btn-padding-y: 1rem;
   --mo-accordion-btn-color: var(--mo-body-color);
   --mo-accordion-btn-bg: var(--mo-accordion-bg);
-  --mo-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23212529' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
+  --mo-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='blue' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
   --mo-accordion-btn-icon-width: 1.25rem;
   --mo-accordion-btn-icon-transform: rotate(-180deg);
   --mo-accordion-btn-icon-transition: transform 0.2s ease-in-out;
@@ -11990,6 +11990,16 @@ p {
 
 .tab-content {
   width: 70%; /* Hace que ocupe todo el ancho disponible */
+}
+
+/* Cambia el color de la flecha cuando está cerrado */
+.accordion-button:not(.collapsed)::after {
+  color: blue !important;
+}
+
+/* Cambia el color de la flecha cuando está expandido */
+.accordion-button.collapsed::after {
+  color: blue !important;
 }
 
 @media (max-width: 576px) {

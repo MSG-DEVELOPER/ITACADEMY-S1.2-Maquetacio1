@@ -1,9 +1,8 @@
-//$primary:  yellow ;
 $primary:  #5265E1;
-//$primary:  black;
-
-
 $secondary:#FA5959;
+$accordion-icon-color: blue;
+
+
 $enable-shadows: true;
 $prefix: "mo-";
 
@@ -136,7 +135,18 @@ p{
 }
 
 
- 
+
+
+/* Cambia el color de la flecha cuando está cerrado */
+.accordion-button:not(.collapsed)::after {
+  color: blue !important;
+}
+
+/* Cambia el color de la flecha cuando está expandido */
+.accordion-button.collapsed::after {
+  color: blue !important;
+}
+
     
   
   @media(max-width:576px){

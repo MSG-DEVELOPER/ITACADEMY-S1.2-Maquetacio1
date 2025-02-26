@@ -12,7 +12,7 @@ cambiar el acordeon por navbar en columna ✅
 
           
       <!-- Aquí va el acordeón -->
-      <div class="row mt-5 d-block d-sm-none">
+      <div class="row mt-5 d-block">
         <div class="col-12">
           <div
             class="accordion accordion-flush d-block d-sm-none mt-5"
