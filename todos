@@ -2,8 +2,8 @@ arreglar la nav bar que el icono y los enlaces esten separados (align-items / ju
 habilitar el js para prbar el boton de hambuergues ✅
 cambiar el boton de hamburguer default por el que nos dan ✅
 poner imagenes en las otra pestañas ✅
-cambiar el acordeon por navbar en columna
-*** estilo de pestañas , centrar texto etc
+cambiar el acordeon por navbar en columna ✅
+*** estilo de pestañas , centrar texto etc ✅
 *** contenido en columna  ✅
 
 
@@ -109,3 +109,17 @@ cambiar el acordeon por navbar en columna
           </div>
         </div>
       </div>
+
+      ********************************************
+      cards
+
+      <div class="card mt-5 custom-card">
+        <img src="./Imagenes/logo-firefox.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Add to Firefox</h5>
+          <p class="card-text">Minium version 5.5</p>
+          <div class="separator"></div>
+          <a href="#" class="btn btn-primary">Add & Install Extension</a>
+        </div>
+      </div>
+          
