@@ -9,14 +9,33 @@ $prefix: "mo-";
 @import "node_modules/bootstrap/scss/bootstrap";
 
 
+.navbar-toggler-icon {
+  background-image: url("./Imagenes/icon-hamburger.svg") !important;
+  
+}
 
-
+.align{
+  padding: 0px !important;
+  margin: 0px !important;
+}
 .nav-link {
   color: grey;
 }
 p{
   color: grey;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Esto asegura que los elementos estén separados */
+  width: 100%;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end; /* Asegura que los enlaces se alineen a la derecha */
+}
+
 
 .login-fondo{
     background-color: $secondary;
@@ -49,6 +68,7 @@ p{
     top:0;
     background-color: white;
   width: 100vw;
+  z-index:9999;
  
   }
   
@@ -75,6 +95,8 @@ p{
   
   
   }
+
+ 
     
   
   @media(max-width:576px){
@@ -103,6 +125,19 @@ p{
     .container-feature{
       margin-top: 3rem;
     }
+    .nav-item {
+      border-bottom: 1px solid grey;
+     
+    }
+  
+    .nav-item:first-child {
+      border-top: 1px solid grey; /* Aplica borde arriba solo al primer elemento */
+    }
+  
+    .nav-link{
+      margin:0px !important;
+    }
+    
   }
 
   
