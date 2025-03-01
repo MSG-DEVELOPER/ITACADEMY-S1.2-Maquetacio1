@@ -1,6 +1,7 @@
 
 $primary:  #5265E1;
 $secondary:#FA5959;
+
 $accordion-icon-color: blue;
 
 
@@ -21,6 +22,8 @@ $prefix: "mo-";
 }
 .nav-link {
   color: grey;
+  margin-right: 2.25rem; 
+
 }
 p{
   color: grey;
@@ -45,18 +48,47 @@ p{
     padding-inline: 3.5rem !important ;
 }
 
-.nav-link {
-    margin-right: 2.25rem; // Añade separación entre todos los enlaces
-  }
+
 
   .negrita{
     font-weight: bolder;
   }
 
-  .btn-getIt{
-    background-color:aquamarine;
+  
+
+  .btn-light{
+    border: 2px solid #fff;
+    background-color: white;
+    color: #1c1b1b;
     margin-left: 1rem;
   }
+
+  .hero-shape {
+    background-color: #5265E1;
+    border-bottom-left-radius: 50rem;
+    border-top-left-radius: 50rem;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: -2rem;
+    z-index: -1;
+}
+
+.hero-shape-rev {
+  background-color: #5265E1; 
+  border-bottom-right-radius: 50rem; 
+  border-top-right-radius: 50rem; 
+  width: 70%; 
+  height: 70%; 
+  position: absolute;
+  bottom: -3rem; 
+  left: -1.8rem; 
+  z-index: -1; 
+}
+
+
+
 
   .letra-parrafo{
     font-weight: bold;
@@ -120,7 +152,9 @@ p{
      margin-bottom: 1.5rem;
     }
 
-    box-shadow: 0px 6px 12px -3px rgba(0, 0, 0, 0.2)
+    box-shadow: 0px 6px 12px -3px rgba(0, 0, 0, 0.2);
+    margin-left: auto; 
+    margin-right: auto; 
   }
 
   .custom-col:nth-child(2) {
@@ -132,21 +166,15 @@ p{
 }
 
 .tab-content {
-  width: 70%; /* Hace que ocupe todo el ancho disponible */
+  width: 70%;
 }
 
 
 
 
-/* Cambia el color de la flecha cuando está cerrado */
-.accordion-button:not(.collapsed)::after {
-  color: blue !important;
-}
 
-/* Cambia el color de la flecha cuando está expandido */
-.accordion-button.collapsed::after {
-  color: blue !important;
-}
+
+
 
     
   

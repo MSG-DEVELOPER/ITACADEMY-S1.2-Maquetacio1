@@ -24,17 +24,22 @@ Antes de comenzar, asegúrate de tener instalado:
 
 ## 🛠️ Instalación
 
-1. Clona este repositorio en tu máquina local:
+Clona este repositorio en tu pc:
 
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
-   cd nombre-del-proyecto
-   npm install
-   npm run sass <ejecutar el script que transpila css a scss y monitorea los cambios para que no tengas que volver a transpilar>
-   
+git clone https://github.com/tu-usuario/tu-repo.git
+ 
+**Después:**
+
+cd nombre-del-proyecto
+
+npm install
+
+npm run sass
+
+npm run sass ejecuta el script que transpila css a scss y monitorea los cambios para que no tengas que volver a transpilar
 
 
-🤝 Contribuciones
+## 🤝 Contribuciones
 ¡Las contribuciones son bienvenidas! Para proponer mejoras:
 
 Haz un fork del repositorio.
