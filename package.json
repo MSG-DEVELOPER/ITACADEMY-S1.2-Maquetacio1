@@ -1,9 +1,16 @@
 {
-  "dependencies": {
-    "bootstrap": "^5.3.3"
-  },
+  "name": "bookmark-project",
+  "version": "1.0.0",
+  "description": "Proyecto Bookmark Manager con Bootstrap y SASS",
+  "main": "index.js",
   "scripts": {
-    "sass": "npx sass --watch main.scss:style.css"
+    "build:sass": "npx sass main.scss style.css",
+    "postinstall": "npm run build:sass",
+    "start": "serve ."
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "serve": "^14.2.0"
   },
   "devDependencies": {
     "sass": "^1.85.1"
